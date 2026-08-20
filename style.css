@@ -1,0 +1,78 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(5, 23, 124);
+}
+
+.logo {
+    margin: 0 auto;
+    height: 70px;
+}
+
+header {
+    background-color: rgb(236, 136, 5);
+    padding: 10px;
+
+
+   /* colocar objetos ao lado do outro */
+display: flex;
+/*  alinhamento vertical (centralizado)*/
+align-items: center;
+   /* objetos justificados (horizontal) com espaço entre eles */
+justify-content: space-between;
+   /* permite quebra de linha dos objetos ao chegar no limite */
+flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    display: block;
+    background-color: rgb(78, 61, 47);
+    padding: 5px 30px;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: arial, verdana, helvetica;
+    font-size: 18px;
+}
+
+nav ul a:hover {
+    background-color: blue;
+    color:rgb(211, 201, 201);
+    border: black 1px solid;
+    box-shadow: rgb(red, green , blue)
+}
+
+/* inicio do conteudo*/
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.flex > div {
+    flex: 1 1 280px;
+    margin: 10px;
+    border: #fff 1px solid;
+}
+
+p {
+    font-family: arial, verdana, helvetica;
+    font-size: 15px;
+    color:#fff;
+    text-align: center;
+}
+
